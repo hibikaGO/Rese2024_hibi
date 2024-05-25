@@ -1,0 +1,106 @@
+body{
+    background-color: #eeeeee;
+}
+
+.header_inner{
+    margin: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width:40px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #8d8d8d;
+}
+
+.icon_text{
+    color: #305dff;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#popup {
+    display: none;
+}
+
+.popup-open {
+    cursor: pointer;
+}
+
+.popup-overlay {
+    display: none;
+}
+
+#popup:checked ~ .popup-overlay {
+    display: block;
+    z-index: 99999;
+    background-color: #00000070;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.popup-window {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-close {
+    margin-left: 10vw;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    background-color: #305dff;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.menu{
+    margin-top: 20vh;
+    width: 100vw;
+}
+.menu-link{
+    display: block;
+    text-decoration: none;
+    font-size:xx-large;
+    font-weight: bold;
+    color: #305dff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-nav__button{
+    display: block;
+    border: none;
+    font-size:xx-large;
+    font-weight: bold;
+    color: #305dff;
+    text-align: center;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+
+
+.menu-link:visited{
+    color: #305dff;
+}

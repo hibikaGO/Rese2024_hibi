@@ -1,0 +1,29 @@
+.content{
+    margin: 0 auto;
+    aspect-ratio: 5/3;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px #8d8d8d;
+    border-radius: 5px;
+    padding: 3% 5%;
+    width: 50%;
+}
+
+.card{
+    margin-top: 20%;
+}
+
+.link{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 3px 6px;
+    background-color: #305dff;
+    color: #ffff;
+    border: none;
+    font-size: small;
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+}
